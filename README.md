@@ -45,7 +45,7 @@ Recently I have started to interest of automation software testing. My future pl
 
 ⁕ FABRYKA TESTÓW ⁕
 
-## FB GROUPS 
+## FB GROUPS FOR KNOWLEDGE GATHERING 
 ⁕ Cypress Test Automation ⁕
 
 ⁕ Cypress.IO - Polish Community ⁕
