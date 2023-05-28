@@ -56,5 +56,5 @@ Recently I have started to interest of automation software testing. My future pl
 
 ## MY PROJECTS 
 
-⁕ [Wellbee](https://github.com/kubekno/portfolio/tree/main/Wellbee%20-%20E2E)
+⁕ [Wellbee](https://github.com/kubekno/portfolio/tree/main/Wellbee%20-%20E2E) *
 
