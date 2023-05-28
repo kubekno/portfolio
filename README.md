@@ -1,6 +1,6 @@
 # PORTFOLIO
 ## ABOUT ME
-My name is Iwona Korczykowska. I have a Bachelor degree in Interior Design. I graduated from Polish-Japanese Academy of Information Technology in Warsaw.
+My name is Iwona. I have a Bachelor degree in Interior Design. I graduated from Polish-Japanese Academy of Information Technology in Warsaw.
 Recently I have started to interest of automation software testing. My future plan is start security testing, but firstly i would like to develop basic knowlage of  automation testing to build solid fundaments for it.
 
 ## TOOLS
