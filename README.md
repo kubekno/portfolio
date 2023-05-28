@@ -1,9 +1,9 @@
-## PORTFOLIO
-# ABOUT ME
+# PORTFOLIO
+## ABOUT ME
 My name ise Iwona Korczykowska. I have a Bachelor degree in Interior Design. I graduated from Polish-Japanese Academy of Information Technology in Warsaw.
 Recently I have started to interest of automation software testing. My future plan is start security testing, but firstly i would like to develop basic knowlage of  automation testing to build solid fundaments for it.
 
-# TOOLS
+## TOOLS
 ⁕ Cypress ⁕
 
 ⁕ SQLite ⁕
@@ -11,7 +11,7 @@ Recently I have started to interest of automation software testing. My future pl
 ⁕ DBeaver ⁕
 
 ⁕ Gitlab ⁕
-# COURSES
+## COURSES
 
 ⁕ Podstawy manualnego testowania oprogramowania ⁕ [UC-1de56953-348d-4386-a1df-99ad3ceb521e](https://www.udemy.com/certificate/UC-1de56953-348d-4386-a1df-99ad3ceb521e/)
 
@@ -32,5 +32,29 @@ Recently I have started to interest of automation software testing. My future pl
 ⁕ Programowanie w Języku Python - od A do Z - 2022 ⁕ [UC-040df965-0757-459d-ac37-8d559743315a](https://www.udemy.com/certificate/UC-040df965-0757-459d-ac37-8d559743315a/)
 
 
-# BOOKS
+## BOOKS
+
+⁕ Certyfikowany tester. Sylabus poziomu podstawowego ISTQB. Wersja V3.1 ⁕ 
+
+⁕  U mnie działa. Język branży IT ⁕ 
+
+⁕ Zawód tester. Od decyzji do zdobycia doświadczenia ⁕
+
+## BLOGI / NEWSLETTER
+⁕ TESTERSBAY ⁕
+
+⁕ FABRYKA TESTÓW ⁕
+
+## FB GROUPS 
+⁕ Cypress Test Automation ⁕
+
+⁕ Cypress.IO - Polish Community ⁕
+
+⁕ Testowanie oprogramowania - Materiały | Porady ⁕
+
+## WEBINARS
+
+## MY PROJECTS 
+
+
 
