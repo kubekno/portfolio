@@ -44,22 +44,6 @@ describe("Access to Therapist Panel", function () {
     cy.get('[data-test="day-marker"]').should("have.length", 10);
   });
 
-  it("Therapist is able to delete working hours", function () {
-    cy.goToTherapistLoginPage();
-    cy.intercept("POST", "http://localhost:4000/graphql", (req) => {
-      aliasMutation(req, "login");
-      aliasQuery(req, "listPatientsPaginated");
-      aliasQuery(req, "getTherapist");
-    });
-    cy.goToTherapistLoginPage();
-    cy.loginToTherapistPanel(this.data.therapistEmail, this.data.therapistPass);
-    cy.wait("@gqlloginMutation");
-    therapistPanel.getHarmonogramMenu().click();
-    cy.url().should("include", "panel-terapeuty/harmonogram");
-    therapistPanel.getDeleteIcon().eq(0).click();
-    cy.on("window;confirm", (str) => {});
-    therapistPanel.getSaveButton().click();
-  });
 
   it("Setting up working hours and replication to therapist listing", function () {
     cy.goToTherapistLoginPage();
@@ -143,7 +127,24 @@ describe("Creating and editing a visit using Therapist Panel", function () {
     cy.clearLocalStorage();
     cy.task("resetDb");
   });
-
+  
+it("Therapist is able to delete working hours", function () {
+    cy.goToTherapistLoginPage();
+    cy.intercept("POST", "http://localhost:4000/graphql", (req) => {
+      aliasMutation(req, "login");
+      aliasQuery(req, "listPatientsPaginated");
+      aliasQuery(req, "getTherapist");
+    });
+    cy.goToTherapistLoginPage();
+    cy.loginToTherapistPanel(this.data.therapistEmail, this.data.therapistPass);
+    cy.wait("@gqlloginMutation");
+    therapistPanel.getHarmonogramMenu().click();
+    cy.url().should("include", "panel-terapeuty/harmonogram");
+    therapistPanel.getDeleteIcon().eq(0).click();
+    cy.on("window;confirm", (str) => {});
+    therapistPanel.getSaveButton().click();
+  });
+  
   it("Mettings display only once", function () {
     cy.goToTherapistLoginPage();
     cy.intercept("POST", "http://localhost:4000/graphql", (req) => {
